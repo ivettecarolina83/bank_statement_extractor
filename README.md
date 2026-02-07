@@ -1,3 +1,4 @@
+
 # Bank Statement Extractor (MVP)
 
 Módulo para extraer movimientos bancarios desde estados de cuenta (PDF digital inicialmente).
