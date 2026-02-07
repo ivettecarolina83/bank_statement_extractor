@@ -16,3 +16,4 @@ Ejecutar extractor (Wells Fargo MVP):
 
 Correr tests:
 - pytest
+Proyecto en desarrollo - MVP inicial.
