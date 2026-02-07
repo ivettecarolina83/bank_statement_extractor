@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/bank_statement_extractor.egg-info/PKG-INFO
+src/bank_statement_extractor.egg-info/SOURCES.txt
+src/bank_statement_extractor.egg-info/dependency_links.txt
+src/bank_statement_extractor.egg-info/requires.txt
+src/bank_statement_extractor.egg-info/top_level.txt
+src/extractor/__init__.py
+src/extractor/detect.py
+src/extractor/models.py
+src/extractor/normalize.py
+src/extractor/parse.py
+src/extractor/pipeline.py
+src/extractor/segment.py
+src/extractor/banks/__init__.py
+src/extractor/banks/wells_fargo.py
+tests/test_wells_fargo_basic.py

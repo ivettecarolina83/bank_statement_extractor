@@ -1,0 +1,26 @@
+[project]
+name = "bank-statement-extractor"
+version = "0.1.0"
+description = "Extractor de movimientos bancarios desde estados de cuenta en PDF/imagen"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "pdfplumber>=0.11.0",
+  "pymupdf>=1.26.0",
+  "pydantic>=2.12.0",
+  "rich>=14.0.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

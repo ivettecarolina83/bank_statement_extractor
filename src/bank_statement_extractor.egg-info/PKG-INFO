@@ -1,0 +1,28 @@
+Metadata-Version: 2.4
+Name: bank-statement-extractor
+Version: 0.1.0
+Summary: Extractor de movimientos bancarios desde estados de cuenta en PDF/imagen
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: pdfplumber>=0.11.0
+Requires-Dist: pymupdf>=1.26.0
+Requires-Dist: pydantic>=2.12.0
+Requires-Dist: rich>=14.0.0
+
+# Bank Statement Extractor (MVP)
+
+Módulo para extraer movimientos bancarios desde estados de cuenta (PDF digital inicialmente).
+
+## Setup (Windows)
+
+Activar entorno:
+- .venv\Scripts\activate
+
+Instalar el proyecto en modo editable:
+- pip install -e .
+
+Ejecutar extractor (Wells Fargo MVP):
+- python -m extractor.pipeline samples\wells_fargo_sample.pdf --out out.json
+
+Correr tests:
+- pytest
